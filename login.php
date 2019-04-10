@@ -22,7 +22,7 @@
 
   <div class="login-box-body">
     <div class="text-center">
-      <img src="images/logo.jpg" width="200">
+      <img src="images/logo-riau-indah-cemerlang.png">
     </div>
     <form action="login.php" method="post">
       <div class="form-group has-feedback">
