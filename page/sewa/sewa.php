@@ -11,7 +11,11 @@
             <div class="box box-success">
                 <div class="box-header with-border">
                     <h3 class="box-title"><b>SEWA</b> | List</h3>
-                    
+                    <div class="pull-right">
+                        <a class="btn btn-success" href="?page=sewaadd">
+                            <span class="fa fa-plus-circle"></span> Tambah Data
+                        </a>
+                    </div>
                 </div>
 
                 <div class="box-body">
