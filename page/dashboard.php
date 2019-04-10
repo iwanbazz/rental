@@ -31,7 +31,7 @@
                     <div class="small-box bg-blue">
                         <div class="inner">
                             <h3><?= $supir ?></h3>
-                            <p>Sopir</p>
+                            <p>Supir</p>
                         </div>
                         <div class="icon">
                             <i class="fa fa-male"></i>

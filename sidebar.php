@@ -26,7 +26,7 @@
     <li class="<?php if ($_GET['page'] == 'supir' || $_GET['page'] == 'supiradd' || $_GET['page'] == 'supiraddpro' || $_GET['page'] == 'supiredit'
         || $_GET['page'] == 'supireditpro' || $_GET['page'] == 'supirview' || $_GET['page'] == 'supirdelete'){ echo "active"; } ?>">
         <a href="?page=supir">
-            <i class="fa fa-male"></i> <span>supir</span>
+            <i class="fa fa-male"></i> <span>Supir</span>
         </a>
     </li>
     <li class="<?php if ($_GET['page'] == 'mobil' || $_GET['page'] == 'mobiladd' || $_GET['page'] == 'mobiladdpro' || $_GET['page'] == 'mobiledit'
@@ -38,7 +38,7 @@
     <li class="header">PESANAN</li>
     <li class="<?php if ($_GET['page'] == 'sewa' || $_GET['page'] == 'sewaview'){ echo "active";} ?>">
         <a href="?page=sewa">
-            <i class="fa fa-refresh"></i> <span>SEWA</span>
+            <i class="fa fa-refresh"></i> <span>Sewa</span>
         </a>
     </li>
     </ul>
