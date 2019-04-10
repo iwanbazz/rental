@@ -21,7 +21,7 @@
   <div class="login-logo"><i class="fa fa-user"></i> <b>ADMIN</b></div>
 
   <div class="login-box-body">
-    <div class="text-center" style="background-color: #52BE80">
+    <div class="text-center" style="background-color: #1F7C1A">
       <img src="images/logo-riau-indah-cemerlang.png">
     </div>
     <br>
