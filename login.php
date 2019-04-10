@@ -15,15 +15,16 @@
   <!-- Google Font -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
 </head>
-<body class="hold-transition login-page">
+<body class="hold-transition login-page" style="background-color: #c8d32e">
 <div class="login-box">
 
   <div class="login-logo"><i class="fa fa-user"></i> <b>ADMIN</b></div>
 
   <div class="login-box-body">
-    <div class="text-center">
+    <div class="text-center" style="background-color: #52BE80">
       <img src="images/logo-riau-indah-cemerlang.png">
     </div>
+    <br>
     <form action="login.php" method="post">
       <div class="form-group has-feedback">
         <input type="text" class="form-control" placeholder="USERNAME" name="username" autocomplete="off" required>
@@ -35,7 +36,7 @@
       </div>
       <div class="row">
         <div class="col-xs-12">
-          <input type="submit" name="submit" class="btn btn-primary btn-block btn-flat" value="LOGIN">
+          <input type="submit" name="submit" class="btn btn-success btn-block btn-flat" value="LOGIN">
         </div>
       </div>
     </form>
