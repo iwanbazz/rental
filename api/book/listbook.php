@@ -20,7 +20,7 @@
             'fotoSupir'         => $data['foto_supir'],
             'idMobil'           => $data['id_mobil'],
             'tipeMobil'         => $data['tipe_mobil'],
-            'fotoMobil'         => (!empty($data['foto_mobil'])) ? "http://rentalpku.serveblog.net/images/mobil/".$data['foto_mobil'] : "http://rentalpku.serveblog.net/images/no-car.jpg",
+            'fotoMobil'         => (!empty($data['foto_mobil'])) ? "http://rentalpku.herokuapp.com/images/mobil/".$data['foto_mobil'] : "http://rentalpku.herokuapp.com/images/no-car.jpg",
             'noPolisi'          => $data['no_polisi'],
             'tahun'             => $data['tahun'],
         ];

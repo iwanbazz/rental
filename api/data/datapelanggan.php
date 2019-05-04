@@ -18,7 +18,7 @@
                     'emailPelanggan'       => $data['email_pelanggan'],
                     'passwordPelanggan'    => $data['password_pelanggan'],
                     'alamatPelanggan'      => $data['alamat_pelanggan'],
-                    'fotoPelanggan'        => (!empty($data['foto_pelanggan'])) ? "http://rentalpku.serveblog.net/images/pelanggan/".$data['foto_pelanggan'] : "http://rentalpku.serveblog.net/images/no-photo.png",
+                    'fotoPelanggan'        => (!empty($data['foto_pelanggan'])) ? "http://rentalpku.herokuapp.com/images/pelanggan/".$data['foto_pelanggan'] : "http://rentalpku.herokuapp.com/images/no-photo.png",
                 ];
             $allData = array('status'=> 200,'message'=>'success','dataFormPelanggan'=>$datas);
             $json = json_encode($allData, JSON_PRETTY_PRINT);

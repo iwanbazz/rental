@@ -21,12 +21,12 @@
                     'emailSupir'       => $data['email_supir'],
                     'passwordSupir'    => $data['password_supir'],
                     'alamatSupir'      => $data['alamat_supir'],
-                    'fotoSupir'        => (!empty($data['foto_supir'])) ? "http://rentalpku.serveblog.net/images/supir/".$data['foto_supir'] : "http://rentalpku.serveblog.net/images/no-photo.png",
+                    'fotoSupir'        => (!empty($data['foto_supir'])) ? "http://rentalpku.herokuapp.com/images/supir/".$data['foto_supir'] : "http://rentalpku.herokuapp.com/images/no-photo.png",
                     'idMobil'          => $data['id_mobil'],
                     'tipeMobil'        => $data['tipe_mobil'],
                     'noPolisi'         => $data['no_polisi'],
                     'tahun'            => $data['tahun'],
-                    'fotoMobil'        => (!empty($data['foto_mobil'])) ? "http://rentalpku.serveblog.net/images/mobil/".$data['foto_mobil'] : "http://rentalpku.serveblog.net/images/no-car.jpg",
+                    'fotoMobil'        => (!empty($data['foto_mobil'])) ? "http://rentalpku.herokuapp.com/images/mobil/".$data['foto_mobil'] : "http://rentalpku.herokuapp.com/images/no-car.jpg",
                 ];
             }
             $allData = array('status'=> 200,'message'=>'success','dataFormSupir'=>$datas);

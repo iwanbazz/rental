@@ -26,7 +26,7 @@
                     'nohpPelanggan'        => $data['nohp_pelanggan'],
                     'emailPelanggan'       => $data['email_pelanggan'],
                     'alamatPelanggan'      => $data['alamat_pelanggan'],
-                    'fotoPelanggan'        => (!empty($data['foto_pelanggan'])) ? "http://rentalpku.serveblog.net/images/pelanggan/".$data['foto_pelanggan'] : "http://rentalpku.serveblog.net/images/no-photo.png",
+                    'fotoPelanggan'        => (!empty($data['foto_pelanggan'])) ? "http://rentalpku.herokuapp.com/images/pelanggan/".$data['foto_pelanggan'] : "http://rentalpku.herokuapp.com/images/no-photo.png",
                     'alamatPengantaran'    => $data['alamat_pengantaran'],
                     'tanggalMulai'         => $data['tanggal_mulai'],
                     'tanggalSelesai'       => $data['tanggal_selesai'],
