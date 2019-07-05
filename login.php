@@ -11,15 +11,12 @@
   <link rel="stylesheet" href="bower_components/Ionicons/css/ionicons.min.css">
   <link rel="stylesheet" href="dist/css/AdminLTE.min.css">
   <link rel="stylesheet" href="plugins/iCheck/square/blue.css">
-
   <!-- Google Font -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
 </head>
 <body class="hold-transition login-page" style="background-color: #c8d32e">
 <div class="login-box">
-
   <div class="login-logo"><i class="fa fa-user"></i> <b>ADMIN</b></div>
-
   <div class="login-box-body">
     <div class="text-center" style="background-color: #1F7C1A">
       <img src="images/logo-riau-indah-cemerlang.png">
@@ -69,11 +66,9 @@
   </div>
 </div>
 <!-- /.login-box -->
-
 <!-- jQuery 3 -->
 <script src="bower_components/jquery/dist/jquery.min.js"></script>
 <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 <script src="plugins/iCheck/icheck.min.js"></script>
-
 </body>
 </html>

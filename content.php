@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 if (isset($_GET['page'])) $page=$_GET['page'];
 else $page="dashboard";
@@ -36,6 +36,7 @@ elseif ($page == "logout") include("page/logout.php");
     // -------------------------- supir --------------------------
     elseif ($page == "sewa")               include("page/sewa/sewa.php");
     elseif ($page == "sewaview")           include("page/sewa/sewaview.php");
+    elseif ($page == "sewaadd")            include("page/sewa/sewaadd.pgp");
 
 
 else echo"Konten tidak ada";
