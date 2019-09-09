@@ -36,7 +36,7 @@ elseif ($page == "logout") include("page/logout.php");
     // -------------------------- supir --------------------------
     elseif ($page == "sewa")               include("page/sewa/sewa.php");
     elseif ($page == "sewaview")           include("page/sewa/sewaview.php");
-    elseif ($page == "sewaadd")            include("page/sewa/sewaadd.pgp");
+    elseif ($page == "sewaadd")            include("page/sewa/sewaadd.php");
 
 
 else echo"Konten tidak ada";
