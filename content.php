@@ -33,7 +33,7 @@ elseif ($page == "logout") include("page/logout.php");
     elseif ($page == "supireditpro")        include("page/supir/supireditpro.php");
     elseif ($page == "supirdelete")         include("page/supir/supirdelete.php");
 
-    // -------------------------- supir --------------------------
+    // -------------------------- sewa --------------------------
     elseif ($page == "sewa")               include("page/sewa/sewa.php");
     elseif ($page == "sewaview")           include("page/sewa/sewaview.php");
     elseif ($page == "sewaadd")            include("page/sewa/sewaadd.php");
